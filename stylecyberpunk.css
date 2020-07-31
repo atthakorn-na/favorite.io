@@ -1,0 +1,40 @@
+body{
+    height: 100%;
+    width: 100%;
+    background: url("./img/cyberpunk-1.jpg");
+    background-position: center center;
+    
+    font-family: 'Permanent Marker', cursive;
+}
+.container{
+    left: 0;
+    top: 0;
+}
+.clearfloat{
+    clear: both;
+}
+header{
+    text-align: center;
+}
+section{
+    color: deepskyblue;
+    width: 700px;
+    height: 350px;
+    margin-top: 180px;
+    float: left;
+    
+}
+aside{
+    float: right;
+    width: 300px;
+    height: 350px;
+    margin-top: 20px;
+}
+footer{
+    width: 1515px;
+    height: 100px;
+    
+    background-color: black;
+    float: left;
+    color: white;
+}

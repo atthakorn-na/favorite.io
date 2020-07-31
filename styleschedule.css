@@ -1,0 +1,36 @@
+body{
+    background-color: grey;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 12px;
+    text-align: center;
+}
+.myschedule{
+    text-align: center;
+}
+header{
+    color: yellow;
+}
+.seminar {
+    background-color:firebrick;
+}
+  
+.web-tech {
+    background-color: #f99372;
+}
+  
+.ip {
+    background-color:red;
+}
+  
+.os {
+    background-color:yellowgreen;
+}
+  
+.sa {
+    background-color: sandybrown;
+}
+.se {
+    background-color: green;
+}
+
+  

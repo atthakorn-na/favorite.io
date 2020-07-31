@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Schedule</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="styleschedule.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+   
+</head>
+<body>        
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="index.html">Shake</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item ">
+          <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="cyberpunk.html">Cyberpunk 2077</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="watchdog2.html">Watch dog 2</a>
+          </li>
+        <li class="nav-item active">
+            <a class="nav-link" href="myschedule.html">My schedule</a>
+          </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Coming soon...</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  
+    <header>
+        <h1>My favorite</h1>
+    </header>
+    <section>
+        <table class="table table-bordered table-dark " ">
+            <thead>
+              <tr>
+                <th scope="col"></th>
+                <th scope="col">8.00-8.30</th>
+                <th scope="col">8.30-9.00</th>
+                <th scope="col">9.00-9.30</th>
+                <th scope="col">9.30-10.00</th>
+                <th scope="col">10.00-10.30</th>
+                <th scope="col">10.30-11.00</th>
+                <th scope="col">11.00-11.30</th>
+                <th scope="col">11.30-12.00</th>
+                <th scope="col">12.00-12.30</th>
+                <th scope="col">12.30-13.00</th>
+                <th scope="col">13.00-13.30</th>
+                <th scope="col">13.30-14.00</th>
+                <th scope="col">14.00-14.30</th>
+                <th scope="col">14.30-15.00</th>
+                <th scope="col">15.00-15.30</th>
+                <th scope="col">15.30-16.00</th>
+                <th scope="col">16.00-16.30</th>
+                <th scope="col">16.30-17.00</th>
+                <th scope="col">17.00-17.30</th>
+                <th scope="col">17.30-18.00</th>
+                   
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">Sunday</th>
+                <td> </td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <th scope="row">Monday</th>
+                <td colspan="6"class="seminar" onclick="show('seminar')">01418497-Seminar(3)</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <th scope="row">Tuesday</th>
+                <td colspan="4"class="web-tech" onclick="show('web-tech')">01418442-Web tech(1)</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td colspan="4"class="web-tech" onclick="show('web-tech')">01418442-Web tech(11)</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <th scope="row">Wednesday</th>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td colspan="3"class="ip" onclick="show('ip')">01418341-IP(1)</td>
+                <td></td>
+                <td colspan="4"class="os" onclick="show('os')">01418331-OS(1)</td>
+                <td colspan="4"class="sa" onclick="show('sa')">01418321-SA(1)</td>
+                <td colspan="4"class="sa" onclick="show('sa')">01418321-SA(11)</td>
+              </tr>
+              <tr>
+                <th scope="row">Thursday</th>
+                <td colspan="4"class="se" onclick="show('se')">01418471-SE(1)</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td colspan="4"class="se" onclick="show('se')">01418471-SE(11)</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <th scope="row">Friday</th>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td colspan="3"class="ip" onclick="show('ip')">01418341-IP(1)</td>
+                <td></td>
+                <td colspan="4"class="os" onclick="show('os')">01418331-OS(1)</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <th scope="row">Saturday</th>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+
+            </tbody>
+          </table>
+          <div id="detail" class="center" style="color: white; font-size: 20px; "></div>
+         
+          <script src="./schedulejs.js"></script>
+    </section>
+    
+</body>
+</html>
